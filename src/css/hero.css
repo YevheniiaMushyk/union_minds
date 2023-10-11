@@ -1,0 +1,11 @@
+.hero__title {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.06; /*68px*/
+  letter-spacing: -2.56px;
+}
+.hero__subtitle {
+  font-style: italic;
+  color: var(--submain);
+}
