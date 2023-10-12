@@ -36,6 +36,16 @@ body {
   color: var(--main_text);
   background-color: var(--main_background);
 }
+
+.container {
+  max-width: 375px;
+  min-width: 320px;
+
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 100%;
+}
+
 .main_title {
   font-size: 48px;
   font-weight: 500;
