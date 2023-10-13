@@ -1,0 +1,122 @@
+.sign-up .container {
+    padding: 40px 0;
+    width: 375px;
+
+}
+
+.title-container {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+    height: 100%;
+}
+.container {
+    margin: 0 auto;
+    height: 100%;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 480px;
+        padding-left: 32px;
+        padding-right: 256px;
+    }
+}
+.sign-up__title {
+    font-family: DM Sans;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
+}
+
+.header-container {
+    padding-bottom: 40px;
+}
+
+.p-sing-up {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: block;
+}
+
+.user-data {
+    margin-bottom: 8px;
+}
+
+.user-input {
+    width: 100%;
+    height: 46px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: #121212;
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.user-comment {
+    width: 100%;
+    height: 112px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: #121212;
+    padding: 14px 18px;
+    /*color: #FFF;
+opacity: 0.7;*/
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.button-send {
+    display: block;
+    width: 335px;
+    width: 100%;
+    height: 48px;
+    padding: 14px 127px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--white, #FFF);
+    color: var(--black, #121212);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.user-privacy {
+    display: inline-block;
+    position: relative;
+    max-width: 375px;
+    min-width: 320px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.p-user-privacy {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3;
+    width: 335px;
+}
+
+.a-privacy-policy {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-decoration-line: underline;
+}
+
