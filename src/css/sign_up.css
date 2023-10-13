@@ -2,8 +2,7 @@
   /* display: flex; */
   padding: 40px 0;
 }
-.sign-up-flex {
-}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -15,6 +14,7 @@
   font-family: DM Sans;
   font-weight: 500;
   margin-bottom: 20px;
+  margin-top: 80px;
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: 0.04em;
