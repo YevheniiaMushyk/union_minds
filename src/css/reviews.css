@@ -1,6 +1,65 @@
+
+.reviews__title {
+    padding-bottom: 50px;
+}
+.reviews_div {
+    padding: 20px;
+    position: relative;
+}
 .reviews_list {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    gap: 20px;
+}
+.reviews_item {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+.stars {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.reviews_student {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 23px;
+}
+.reviews_person {
+    display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+}
+.reviews_position {
+    color: rgba(255, 255, 255, 0.50);
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.reviews {
+    margin-bottom: 150px;
+}
+
+/* Media */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+   
+}
+
+@media screen and (min-width: 1280px) {
+   
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+   
+}
+
+@media screen and (min-width: 1440px) {
+   
 }
