@@ -1,10 +1,10 @@
 
 .reviews__title {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .reviews_div {
     padding: 20px;
-    position: relative;
+  
 }
 .reviews_list {
     display: flex;
@@ -17,17 +17,16 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
 }
-.stars {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.reviews_item_l {
+    display: none;
 }
+
 .reviews_student {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    padding-bottom: 23px;
+    padding-bottom: 20px;
 }
 .reviews_person {
     display: flex;
@@ -41,25 +40,123 @@
         font-size: 14px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        padding-bottom: 10px;
 }
 .reviews {
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 
 /* Media */
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-   
+.reviews__title {
+        padding-bottom: 50px;
+    }
+        .reviews_div {
+            padding: 20px;
+            position: relative;
+        }
+         .stars {
+             position: absolute;
+             top: 20px;
+             right: 20px;
+         }
+                 .reviews_position {
+                    padding-bottom: 0px;
+                 }
+        .reviews {
+            margin-bottom: 100px;
+        }
+            
 }
 
 @media screen and (min-width: 1280px) {
-   
+.reviews__title {
+        padding-bottom: 50px;
+    }
+        .reviews_div {
+            padding: 20px;
+            position: relative;
+        }
+         .stars {
+             position: absolute;
+             top: 20px;
+             right: 20px;
+         }
+                  .reviews_position {
+                      padding-bottom: 0px;
+                  }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
-   
+.reviews__title {
+        padding-bottom: 50px;
+    }
+         .reviews_div {
+             padding: 20px 20px 40px 20px;
+             position: relative;
+         }
+                 .reviews_item_l {
+                    display: flex;
+                     border-radius: 12px;
+                     border: 1px solid rgba(255, 255, 255, 0.20);
+                 }
+          .stars {
+                 position: absolute;
+                  top: 20px;
+                 right: 20px;
+                  }
+      .reviews_position {
+            padding-bottom: 0px;
+           }
 }
 
 @media screen and (min-width: 1440px) {
-   
+.reviews__title {
+        padding-bottom: 50px;
+    }
+
+    .reviews_list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .reviews_item {
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+    }
+        .reviews_item_l {
+            display: flex;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.20);
+        }
+
+                .reviews_div {
+                    padding: 20px;
+                    position: relative;
+                }
+    .stars {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+      .reviews_person {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+        .reviews_position {
+            padding-bottom: 0px;
+        }
+
+    .reviews {
+        margin-bottom: 150px;
+    }
 }
