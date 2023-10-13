@@ -17,11 +17,11 @@
     }
     
 }
-/*@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .container {
         padding: 0 100px;
     }
-}*/
+}
 .sign-up__title {
   font-family: DM Sans;
   font-weight: 500;
