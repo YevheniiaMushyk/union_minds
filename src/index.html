@@ -35,6 +35,21 @@
     <load ="partials/footer.html" />
     <load ="partials/modal.html" />
 
+    <script>
+      const header__button = document.querySelector('.header__button');
+      const modal__button_close = document.querySelector(
+        '.modal__button_close'
+      );
+      const modal = document.querySelector('.modal');
+
+      header__button.addEventListener('click', () => {
+        modal.showModal();
+      });
+
+      modal__button_close.addEventListener('click', () => {
+        modal.close();
+      });
+    </script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
