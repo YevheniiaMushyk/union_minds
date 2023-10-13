@@ -1,0 +1,14 @@
+.footer.container{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-image: url('../img/backgr.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-resolution: 192dpi) {
+  .footer.container    {
+      background-image: url('../img/backgr@2x.png');
+    }
+}
