@@ -1,22 +1,12 @@
-.sign-up .container {
+.sign-up {
     padding: 40px 0;
-    width: 375px;
+    /*width: 375px;*/
 
 }
 
-.title-container {
-    width: 100%;
-    padding: 40px 0;
-    margin: 0 auto;
-    height: 100%;
-}
-.container {
-    margin: 0 auto;
-    height: 100%;
-}
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 480px;
+        max-width: 768px;
         padding-left: 32px;
         padding-right: 256px;
     }
@@ -30,7 +20,7 @@
     letter-spacing: 0.04em;
 }
 
-.header-container {
+.sign-up-content {
     padding-bottom: 40px;
 }
 
