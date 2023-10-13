@@ -1,0 +1,41 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 218px;
+  height: 812px;
+
+  background-color: var(--submain);
+}
+.modal__container {
+  margin-left: auto;
+  height: 100%;
+  padding: 0 20px;
+  padding-top: 218px;
+}
+.modal__button_close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+}
+.modal__button_icon {
+  stroke: var(--main_background);
+}
+.modal__nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.modal__nav-list {
+}
+.modal__nav-item {
+}
+.modal__nav-link {
+  color: var(--main_background);
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
+}
