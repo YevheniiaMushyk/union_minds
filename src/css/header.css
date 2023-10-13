@@ -38,9 +38,17 @@
   width: 16px;
   height: 16px;
 }
+.header__icon:hover .header__icon_svg {
+  stroke: #bea69e;
+}
+
 .header__button {
   background-color: transparent;
   height: 22px;
+}
+
+.header__icon_svg {
+  stroke: aqua;
 }
 
 @media screen and (max-width: 767px) {
@@ -189,4 +197,31 @@
   .header__nav-list {
     column-gap: 40px;
   }
+}
+
+.header__sign:hover,
+.header__sign:focus {
+  background: var(--button_fon);
+  transform: scale(1.1);
+}
+.header__sign:hover .header__link,
+.header__sign:focus .header__link {
+  color: var(--submain);
+  transform: scale(1.1);
+}
+.header__nav-item:hover .header__nav-link,
+.header__nav-item:focus .header__nav-link {
+  color: var(--submain);
+}
+
+.header__nav-item:hover,
+.header__nav-item:focus {
+  transform: scale(1.1);
+}
+.header__logo:hover,
+.header__logo:focus {
+  transform: scale(1.1);
+}
+.header__button:hover {
+  transform: scale(1.1);
 }

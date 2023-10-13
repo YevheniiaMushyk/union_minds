@@ -23,15 +23,26 @@
       </li>
     </ul>
   </nav>
-  <picture>
+  <picture class="modal__image">
     <source
       media="(max-width: 767px)"
       srcset="
-        ../img/modal/camera_mob-min.png    1x,
-        ../img/modal/camera_mob-min@2x.png 2x
+        ./img/modal/camera_mob-min.png    1x,
+        ./img/modal/camera_mob-min@2x.png 2x
       "
     />
-    <source media="(max-width: 1279px)" srcset="img_car.jpg" />
-    <img src="img_girl.jpg" src="" />
+    <source
+      media="(min-width: 768px) and (max-width: 1279px)"
+      srcset="
+        ./img/modal/camera_476x480-min.png    1x,
+        ./img/modal/camera_476x480@2x-min.png 2x
+      "
+    />
+    <img
+      src="./img/modal/camera_mob-min.png"
+      alt="Camera"
+      width="476px"
+      height="480px"
+    />
   </picture>
 </dialog>
