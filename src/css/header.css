@@ -38,17 +38,15 @@
   width: 16px;
   height: 16px;
 }
-.header__icon:hover .header__icon_svg {
-  stroke: #bea69e;
-}
 
 .header__button {
   background-color: transparent;
   height: 22px;
 }
 
-.header__icon_svg {
-  stroke: aqua;
+.header__icon_link .header__icon_svg {
+  fill: var(--submain);
+  fill-opacity: 0.4;
 }
 
 @media screen and (max-width: 767px) {
@@ -224,4 +222,14 @@
 }
 .header__button:hover {
   transform: scale(1.1);
+}
+
+.header__icon:hover,
+.header__icon:focus {
+  transform: scale(1.3);
+}
+.header__icon:hover .header__icon_svg,
+.header__icon:focus .header__icon_svg {
+  fill-opacity: 1;
+  transform: scale(1.3);
 }
