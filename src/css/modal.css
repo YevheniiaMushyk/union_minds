@@ -9,6 +9,9 @@
   background-position: bottom;
   background-size: contain;
 }
+.modal::backdrop {
+  background-color: rgba(18, 18, 18, 0.4);
+}
 .modal__container {
   margin-left: auto;
 
