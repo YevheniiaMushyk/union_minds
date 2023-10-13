@@ -10,12 +10,63 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .container {
-    max-width: 1279px;
-   padding-left: 32px;
-    padding-right: 256px;
+.container {
+max-width: 1279px;
+padding-left: 32px;
+padding-right: 256px;
+}
+.sign-up-lelftpart {
+max-width: 480px;
+}
+.sign-up__title{
+font-size: 48px;
+line-height: 1.13;
+}
+.p-sing-up{
+    font-size: 16px;
+}
+.contact-form{
+    margin-bottom: 100px;
+}
+.user-data{
+    margin-bottom: 14px;
+}
+.user-input {
+    height: 60px;
+    font-size: 16px;
+    padding: 18px 20px;
+}
+.user-comment{
+height: 119px;
+font-size: 16px;
+padding: 18px 20px;
+}
+.button-send{
+    display: inline-flex;
+        width: 479px;
+        width: 100%;
+        height: 60px;
+        padding: 16px 216px;
+        font-size: 18px;
+        line-height: 1.6;
+}
+.user-privacy{
+    max-width: 480px;
+}
+.p-user-privacy {
+    font-size: 14px;
+    width: 100%;
+}
+
+.a-privacy-policy {
+    font-size: 14px;
+}
+
+}
+@media screen and (max-width: 1279px) {
+  .sign-up-rightpart {
+      display:none;
     }
-    
 }
 @media screen and (min-width: 1280px) {
     .container {
@@ -26,7 +77,6 @@
   font-family: DM Sans;
   font-weight: 500;
   margin-bottom: 20px;
-  /*margin-top: 80px;*/
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: 0.04em;
