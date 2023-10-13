@@ -1,28 +1,36 @@
 .sign-up {
   /* display: flex; */
-  padding: 40px 0;
-}
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 256px;
-  }
 }
+@media screen and (max-width: 767px) {
+    .container {
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .container {
+    max-width: 1279px;
+   padding-left: 32px;
+    padding-right: 256px;
+    }
+    
+}
+/*@media screen and (min-width: 1280px) {
+    .container {
+        padding: 0 100px;
+    }
+}*/
 .sign-up__title {
   font-family: DM Sans;
   font-weight: 500;
   margin-bottom: 20px;
-  margin-top: 80px;
+  /*margin-top: 80px;*/
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: 0.04em;
 }
-
-/* .sign-up-content {
-  padding-bottom: 40px;
-} */
 
 .p-sing-up {
   font-size: 14px;
