@@ -1,5 +1,6 @@
 .sign-up {
-  /* display: flex; */
+  display: flex;
+  gap: 60px;
 }
 @media screen and (max-width: 767px) {
   .container {
@@ -14,27 +15,117 @@
     padding-left: 32px;
     padding-right: 256px;
   }
-
   .sign-up-lelftpart {
     max-width: 480px;
   }
+  .sign-up__title {
+    font-size: 48px;
+    line-height: 1.13;
+  }
+  .p-sing-up {
+    font-size: 16px;
+  }
+  .contact-form {
+    margin-bottom: 100px;
+  }
+  .user-data {
+    margin-bottom: 14px;
+  }
+  .user-input {
+    height: 60px;
+    font-size: 16px;
+    padding: 18px 20px;
+  }
+  .user-comment {
+    height: 119px;
+    font-size: 16px;
+    padding: 18px 20px;
+  }
+  .button-send {
+    display: inline-flex;
+    width: 479px;
+    width: 100%;
+    height: 60px;
+    padding: 16px 216px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .user-privacy {
+    max-width: 480px;
+  }
+  .p-user-privacy {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .a-privacy-policy {
+    font-size: 14px;
+  }
 }
-/*@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .sign-up-rightpart {
-      display; none;
-    }
-}*/
-/*@media screen and (min-width: 1280px) {
-    .container {
-        padding: 0 100px;
-    }
-    
-}*/
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .sign-up-rightpart {
+    max-width: 540px;
+    display: flex;
+  }
+  .fon-focus {
+    width: 180px;
+    height: 288px;
+    border-radius: 1000px;
+    background: #bea69e;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .fon-camera {
+    width: 340px;
+    height: 540px;
+    border-radius: 1000px;
+    background: #1d1d1d;
+  }
+  .icon-focus {
+    width: 150px;
+    height: 142px;
+  }
+  .icon-camera {
+    width: 240px;
+    height: 296px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sign-up {
+    gap: 200px;
+  }
+  .sign-up-rightpart {
+    display: flex;
+  }
+  .contact-form {
+    margin-bottom: 150px;
+  }
+  .fon-focus {
+    width: 190px;
+    height: 288px;
+    border-radius: 1000px;
+    background: #bea69e;
+    margin-right: 20px;
+  }
+  .fon-camera {
+    width: 350px;
+    height: 540px;
+    border-radius: 1000px;
+    background: #1d1d1d;
+  }
+}
+
 .sign-up__title {
   font-family: DM Sans;
   font-weight: 500;
   margin-bottom: 20px;
-  /*margin-top: 80px;*/
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: 0.04em;
