@@ -27,7 +27,7 @@ line-height: 1.13;
     font-size: 16px;
 }
 .contact-form{
-    margin-bottom: 100px;
+   /* margin-bottom: 100px;*/
 }
 .user-data{
     margin-bottom: 14px;
@@ -73,30 +73,46 @@ padding: 18px 20px;
     .sign-up-rightpart{
      max-width: 540px;
      display: flex;
-     
     }
+
+        .sign-up-icon{
+            width: 540px;
+            height: 540px;
+            display: flex;
+        }
 .fon-focus{
     width: 180px;
     height: 288px;
     border-radius: 1000px;
     background: #BEA69E;
     margin-right: 20px;
-   position: relative;
+    position: relative;
+   top:252px;
 }
+
+
 
 .fon-camera{
     width: 340px;
     height: 540px;
     border-radius: 1000px;
     background: #1D1D1D;
+    position: relative;
 }
 .icon-focus{
 width: 150px;
 height: 142px;
+position: relative;
+top: 76px;
+
+
 }
 .icon-camera{
 width: 240px;
 height: 296px;
+position: relative;
+top:156px;
+left: 50px;
 }
 }
 
@@ -107,21 +123,43 @@ height: 296px;
 .sign-up-rightpart{
 display: flex;
 }
+  .sign-up-icon {
+      width: 560px;
+      height: 540px;
+      display: flex;
+  }
 .contact-form {
-    margin-bottom: 150px;
+   /* margin-bottom: 150px;*/
 }
 .fon-focus{
     width: 190px;
     height: 288px;
     border-radius: 1000px;
     background: #BEA69E;
-    margin-right: 20px;
+   margin-right: 20px;
+    position: relative;
+    top:252px;
+    
+}
+.icon-focus {
+    width: 163px;
+    height: 154px;
+    position: relative;
+    top: 63px;
 }
 .fon-camera{
  width: 350px;
 height: 540px;
   border-radius: 1000px;
 background: #1D1D1D;
+position: relative;
+}
+.icon-camera {
+    width: 254px;
+    height: 313px;
+    position: relative;
+    top: 139px;
+    left: 48px;
 }
 
 }
@@ -145,7 +183,7 @@ background: #1D1D1D;
 
 .contact-form {
   display: block;
-  margin-bottom: 80px;
+ /* margin-bottom: 80px;*/
 }
 
 .user-data {
