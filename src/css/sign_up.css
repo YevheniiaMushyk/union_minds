@@ -69,9 +69,15 @@
             width: 540px;
             height: 540px;
             display: flex;
+            padding-bottom: 38px;
+        }
+        .sign-up-lelftpart{
+            width: 480px;
+            height: 578px;
         }
   .sign-up-rightpart {
     max-width: 540px;
+    height: 578px;
     display: flex;
   }
   .fon-focus {
@@ -91,6 +97,7 @@
     background: #1D1D1D;
     position: relative;
     align-items: flex-end;
+    bottom: 38px;
 }
 .icon-focus{
 width: 150px;
@@ -119,6 +126,7 @@ display: flex;
 width: 560px;
 height: 540px;
 display: flex;
+padding-bottom: 38px;
 }
 .fon-focus{
     width: 190px;
@@ -128,6 +136,7 @@ display: flex;
    margin-right: 20px;
     position: relative;
     top:252px;
+    bottom: 38px;
     
 }
 .icon-focus {
@@ -135,6 +144,7 @@ display: flex;
     height: 154px;
     position: relative;
     top: 63px;
+    
 }
 .fon-camera{
 width: 350px;
@@ -142,6 +152,7 @@ height: 540px;
 border-radius: 1000px;
 background: #1D1D1D;
 position: relative;
+bottom: 38px;
 }
 .icon-camera {
     width: 254px;
