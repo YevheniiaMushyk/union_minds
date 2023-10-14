@@ -81,7 +81,8 @@
     background: #bea69e;
     margin-right: 20px;
     position: relative;
-   top:252px;
+   align-self: flex-end;
+
 }
 .fon-camera{
     width: 340px;
@@ -89,12 +90,14 @@
     border-radius: 1000px;
     background: #1D1D1D;
     position: relative;
+    align-items: flex-end;
 }
 .icon-focus{
 width: 150px;
 height: 142px;
 position: relative;
 top: 76px;
+
 }
 .icon-camera{
 width: 240px;
