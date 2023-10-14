@@ -3,7 +3,7 @@
   padding-bottom: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
-@media screen and (min-width: 768px)and (max-width: 1279px) {
+@media screen and (min-width: 768px){
   .footer.contacts{
     padding-top: 50px;
     padding-bottom: 25px; 
