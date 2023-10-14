@@ -3,6 +3,8 @@
   /* max-width: 375px; */
 min-width: 320px;
 overflow: hidden;
+border-top: 1px solid rgba(255, 255, 255, 0.20);
+border-bottom: 1px solid rgba(255, 255, 255, 0.20) ;
 
 margin: 0 auto;
 height: 100%;
@@ -23,8 +25,8 @@ flex-shrink: 0;
 padding: 20px 10px;
 white-space: nowrap;
 animation-name: marqueeLine;
-animation-duration: 7s;
-animation-timing-function: linear;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;;
 animation-iteration-count: infinite;
 }
 
@@ -91,7 +93,7 @@ margin-bottom: 100px;
 
 @media screen and (min-width: 1440px) {
   .marquee {
-    min-width: 1440px;
+    max-width: 1440px;
   }
   .marquee-line__title {
     font-size: 59px;
