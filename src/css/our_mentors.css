@@ -3,10 +3,8 @@
 }
 
 .container {
-    overflow-x: hidden;
+    overflow: hidden;
 }
-
-.container-mentors {}
 
 .container .our-mentors__title {
     font-size: 28px;
@@ -15,12 +13,9 @@
     margin-bottom: 40px;
 }
 
-.main_title {}
-
-.subtitle {}
-
 .our-mentors__list {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -66,7 +61,7 @@
 
     .container {
         max-width: 768px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .container .our-mentors__title {
@@ -78,9 +73,9 @@
     .our-mentors__list {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 93px 100px;
     }
 
     .our-mentors__item {
@@ -99,11 +94,27 @@
     }
 }
 
+@media screen and (min-width:768px) and (max-width:1279.98px) {
+    .our-mentors__list {
+        gap: 93px 100px;
+    }
+
+}
+
 /*=============media====desk===========*/
 @media screen and (min-width:1280px) {
+    body .container {
+        min-width: 1080px;
+    }
+
     .container {
         max-width: 1280px;
-        overflow-x: hidden;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .our-mentors {
+        padding-bottom: 150px;
     }
 
     .our-mentors__item {
@@ -112,9 +123,20 @@
     }
 }
 
+@media screen and (min-width:1280px) and (max-width:1439.98px) {
+    .our-mentors__list {
+        gap: 0 100px;
+    }
+
+}
+
 @media screen and (min-width:1440px) {
     .container {
         max-width: 1440px;
-        overflow-x: hidden;
+        overflow: hidden;
+    }
+
+    .our-mentors__list {
+        gap: 0 113px;
     }
 }
