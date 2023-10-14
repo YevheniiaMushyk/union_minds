@@ -109,6 +109,9 @@
       .reviews_position {
             padding-bottom: 0px;
            }
+                   /* .reviews_list  {
+                       width: calc((100% - 20px) / 2);
+                   } */
 }
 
 @media screen and (min-width: 1440px) {
@@ -159,4 +162,6 @@
     .reviews {
         margin-bottom: 150px;
     }
+
+
 }
