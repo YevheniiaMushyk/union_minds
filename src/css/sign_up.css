@@ -1,97 +1,88 @@
 .sign-up {
   display: flex;
   gap: 60px;
-
 }
 @media screen and (max-width: 767px) {
-    .container {
+  .container {
     min-width: 320px;
     max-width: 375px;
     padding: 0 20px;
-    }
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-.container {
-max-width: 1279px;
-padding-left: 32px;
-padding-right: 256px;
-}
-.sign-up-lelftpart {
-max-width: 480px;
-}
-.sign-up__title{
-font-size: 48px;
-line-height: 1.13;
-}
-.p-sing-up{
-    font-size: 16px;
-}
-.contact-form{
-   /* margin-bottom: 100px;*/
-}
-.user-data{
+  .container {
+    max-width: 1279px;
+    padding-left: 32px;
+    padding-right: 256px;
+  }
+  .sign-up-lelftpart {
+    max-width: 480px;
+  }
+  .sign-up__title {
+    font-size: 48px;
+    line-height: 1.13;
+  }
+  .p-sing-up {
+    font-size: 16px;}
+
+  .user-data {
     margin-bottom: 14px;
-}
-.user-input {
+  }
+  .user-input {
     height: 60px;
     font-size: 16px;
     padding: 18px 20px;
-}
-.user-comment{
-height: 119px;
-font-size: 16px;
-padding: 18px 20px;
-}
-.button-send{
+  }
+  .user-comment {
+    height: 119px;
+    font-size: 16px;
+    padding: 18px 20px;
+  }
+  .button-send {
     display: inline-flex;
-        width: 479px;
-        width: 100%;
-        height: 60px;
-        padding: 16px 216px;
-        font-size: 18px;
-        line-height: 1.6;
-}
-.user-privacy{
+    width: 479px;
+    width: 100%;
+    height: 60px;
+    padding: 16px 216px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .user-privacy {
     max-width: 480px;
-}
-.p-user-privacy {
+  }
+  .p-user-privacy {
     font-size: 14px;
     width: 100%;
-}
+  }
 
-.a-privacy-policy {
+  .a-privacy-policy {
     font-size: 14px;
-}
-
+  }
 }
 @media screen and (max-width: 1279px) {
   .sign-up-rightpart {
-      display:none;
-    }
+    display: none;
+  }
 }
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
-    .sign-up-rightpart{
-     max-width: 540px;
-     display: flex;
-    }
-
         .sign-up-icon{
             width: 540px;
             height: 540px;
             display: flex;
         }
-.fon-focus{
+  .sign-up-rightpart {
+    max-width: 540px;
+    display: flex;
+  }
+  .fon-focus {
     width: 180px;
     height: 288px;
     border-radius: 1000px;
-    background: #BEA69E;
+    background: #bea69e;
     margin-right: 20px;
     position: relative;
    top:252px;
 }
-
-
-
 .fon-camera{
     width: 340px;
     height: 540px;
@@ -104,8 +95,6 @@ width: 150px;
 height: 142px;
 position: relative;
 top: 76px;
-
-
 }
 .icon-camera{
 width: 240px;
@@ -117,19 +106,16 @@ left: 50px;
 }
 
 @media screen and (min-width: 1440px) {
-.sign-up{
+  .sign-up {
     gap: 200px;
 }
 .sign-up-rightpart{
 display: flex;
 }
-  .sign-up-icon {
-      width: 560px;
-      height: 540px;
-      display: flex;
-  }
-.contact-form {
-   /* margin-bottom: 150px;*/
+.sign-up-icon {
+width: 560px;
+height: 540px;
+display: flex;
 }
 .fon-focus{
     width: 190px;
@@ -148,9 +134,9 @@ display: flex;
     top: 63px;
 }
 .fon-camera{
- width: 350px;
+width: 350px;
 height: 540px;
-  border-radius: 1000px;
+border-radius: 1000px;
 background: #1D1D1D;
 position: relative;
 }
@@ -161,7 +147,6 @@ position: relative;
     top: 139px;
     left: 48px;
 }
-
 }
 
 .sign-up__title {
