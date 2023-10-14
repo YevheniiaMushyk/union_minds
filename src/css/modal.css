@@ -85,6 +85,10 @@
     width: 40px;
     height: 40px;
   }
+  .modal__button_icon {
+    width: 40px;
+    height: 40px;
+  }
   .modal__nav {
     margin-bottom: 114px;
   }
