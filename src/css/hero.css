@@ -253,6 +253,11 @@ margin-bottom: 100px;
   }
 
   .hero__title {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -2.56px;
     color: var(--main_text);
     max-width: 563px;
     margin-bottom: 20px;
