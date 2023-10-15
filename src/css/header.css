@@ -1,3 +1,6 @@
+.container {
+  max-width: 375px;
+}
 .header {
   display: flex;
   justify-content: flex-start;
@@ -103,8 +106,8 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  body .container {
-    max-width: 1279px;
+  .container {
+    max-width: 768px;
   }
   .header {
     column-gap: 14px;
@@ -174,6 +177,9 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .container {
+    max-width: 1280px;
+  }
   .header__inner {
     column-gap: 97px;
   }
@@ -186,6 +192,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
   .header__inner {
     justify-content: space-between;
   }
