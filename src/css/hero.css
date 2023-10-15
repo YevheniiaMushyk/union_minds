@@ -243,29 +243,18 @@ margin-bottom: 100px;
 /* Laptop */
 @media screen and (min-width: 1280px) and (min-width: 1440px) {
   .hero {
-    
+   
   }
   .hero-wrapper {
     border-radius: 30px;
     padding-top: 80px;
     padding-left: 50px;
     background: var(--button_fon);
-    
   }
   .general-students-star {
- 
-   
-  }
-  .div-guy {
 
   }
   .hero__title {
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.06;
-    letter-spacing: -2.56px;
-    color: var(--main_text);
     max-width: 563px;
     margin-bottom: 20px;
   }
@@ -361,7 +350,6 @@ margin-bottom: 100px;
   margin-bottom: 174px;
   max-width: 397px;
   height: 520px;
- 
  
 
   }  
