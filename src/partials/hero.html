@@ -41,14 +41,35 @@
         </div>
       </div>
     </div>
-    <div class="hero__img_content">
-      <img
-        class="hero-main-img"
-        srcset="
-          ./img/hero/hero259x314-min.png    1x,
-          ./img/hero/hero259x314@2x-min.png 2x
-        "
-      />
+    <div class="hero-img-content">
+      <picture class="hero-main-img">
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/hero/hero259x314-min.png    1x,
+            ../img/hero/hero259x314@2x-min.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px) and (max-width: 1279px)"
+          srcset="
+            ../img/hero/hero393x434-min.png    1x,
+            ../img/hero/hero393x434@2x-min.png 2x
+          "
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/hero/hero397x520-min.png    1x,
+            ../img/hero/hero397x520@2x-min.png
+          "
+        />
+        <img
+          src="../img/hero/hero259x314-min.png"
+          alt="Men with camera"
+          width="397px"
+        />
+      </picture>
     </div>
   </div>
 </section>
