@@ -42,7 +42,8 @@
 @media screen and (max-width: 767px) {
   .modal {
     width: 218px;
-    background-image: url('./img/modal/camera_mob-min.png');
+    min-height: 812px;
+    background-image: url('../img/modal/camera_mob-min.png');
   }
   .modal__container {
     padding: 0 20px;
@@ -68,14 +69,15 @@
 
 @media (min-resolution: 192dpi) and (max-width: 767px) {
   .modal {
-    background-image: url('./img/modal/camera_mob@2x-min.png');
+    background-image: url('../img/modal/camera_mob@2x-min.png');
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .modal {
     width: 480px;
-    background-image: url('./img/modal/camera_476x480-min.png');
+    min-height: 1024px;
+    background-image: url('../img/modal/camera_476x480-min.png');
   }
   .modal__container {
     padding: 0 64px;
@@ -119,6 +121,6 @@
 }
 @media (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px) {
   .modal {
-    background-image: url('./img/modal/camera_476x480@2x-min.png');
+    background-image: url('../img/modal/camera_476x480@2x-min.png');
   }
 }

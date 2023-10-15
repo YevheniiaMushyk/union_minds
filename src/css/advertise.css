@@ -1,6 +1,4 @@
 .marquee {
-  /* max-width: 375px; */
-  min-width: 320px;
   overflow: hidden;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -57,7 +55,6 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .marquee {
-    min-width: 768px;
     padding: 0 32px;
     margin-bottom: 100px;
   }
@@ -75,7 +72,6 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
   .marquee {
-    min-width: 1280px;
     margin-bottom: 150px;
   }
 
@@ -92,9 +88,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .marquee {
-    max-width: 1440px;
-  }
   .marquee-line__title {
     padding-left: 20px;
     padding-right: 20px;
