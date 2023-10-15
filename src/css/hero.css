@@ -251,10 +251,9 @@ margin-bottom: 100px;
     padding-left: 50px;
     background: var(--button_fon);
   }
-  .general-students-star {
 
-  }
   .hero__title {
+    color: var(--main_text);
     max-width: 563px;
     margin-bottom: 20px;
   }
