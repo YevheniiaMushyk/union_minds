@@ -323,14 +323,20 @@
     letter-spacing: -0.64px;
   }
   .hero-main-img {
+<<<<<<< Updated upstream
     align-items: center; 
     margin-bottom: 0;
-    
   }
   .hero-img-content {
 justify-content: center;
   }
   .div-happy-descr {
+=======
+  align-items: center;
+  margin-bottom: 174px;
+  min-width: 397px;
+  height: 520px;
+>>>>>>> Stashed changes
 
 
   }
