@@ -352,7 +352,7 @@ margin-bottom: 100px;
   .hero-main-img {
   align-items: center;
   margin-bottom: 174px;
-  max-width: 397px;
+  min-width: 397px;
   height: 520px;
  
 
