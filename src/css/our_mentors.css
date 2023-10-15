@@ -2,12 +2,7 @@
   padding-bottom: 80px;
 }
 
-.container {
-  overflow: hidden;
-  max-width: 375px;
-}
-
-.container .our-mentors__title {
+.our-mentors__title {
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: -0.04em;
@@ -65,12 +60,7 @@
     padding-bottom: 100px;
   }
 
-  .container {
-    max-width: 768px;
-    overflow: hidden;
-  }
-
-  .container .our-mentors__title {
+  .our-mentors__title {
     font-size: 48px;
     line-height: 1.12;
     margin-bottom: 50px;
@@ -108,16 +98,6 @@
 
 /*=============media====desk===========*/
 @media screen and (min-width: 1280px) {
-  body .container {
-    min-width: 1280px;
-  }
-
-  .container {
-    max-width: 1280px;
-    overflow: hidden;
-    padding: 0;
-  }
-
   .our-mentors {
     padding-bottom: 150px;
   }
@@ -135,11 +115,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    overflow: hidden;
-  }
-
   .our-mentors__list {
     gap: 0 113px;
   }
