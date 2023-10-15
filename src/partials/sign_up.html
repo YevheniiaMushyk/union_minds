@@ -1,6 +1,107 @@
 <section class="sign-up container">
-  <!-- стилі для класу main_title, subtitle вже прописані в styles.css -->
-  <h2 id="sign-up" class="sign-up__title main_title">
-    sign <span class="subtitle">up</span>
-  </h2>
+  <div class="sign-up_content">
+    <div class="sign-up-lelftpart">
+      <h2 class="sign-up__title" id="sign-up">
+        Sign <span class="subtitle">Up</span>
+      </h2>
+      <p class="p-sing-up">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+
+      <form class="contact-form">
+        <div class="user-data">
+          <label class="user-information" for="name">
+            <input
+              class="user-input"
+              id="name"
+              name="name"
+              type="text"
+              pattern="[a-z]{2}"
+              placeholder="Enter your name"
+          /></label>
+        </div>
+        <div class="user-data">
+          <label class="user-information" for="email">
+            <input
+              class="user-input"
+              id="email"
+              name="email"
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+              placeholder="Enter your email"
+          /></label>
+        </div>
+        <div class="message">
+          <label class="user-information" for="user-message"></label>
+          <textarea
+            class="user-comment"
+            id="user-message"
+            name="user-comment"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <button class="button-send" type="submit">SEND</button>
+        <div class="user-privacy">
+          <p class="p-user-privacy">
+            By clicking on “Send” button,you agree to our
+            <a class="a-privacy-policy">Privacy Policy</a>, and allow Promodo to
+            use this information for marketing purposes.
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="sign-up-rightpart">
+      <div class="fon-focus">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/sign_up/objectiv142x150-min.png    1x,
+              ./img/sign_up/objectiv142x150@2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/sign_up/objectiv154x163-min.png    1x,
+              ./img/sign_up/objectiv154x163@2x-min.png 2x
+            "
+          />
+          <img
+            class="icon-focus"
+            src="./img/sign_up/objectiv142x150-min.png"
+            alt="focus"
+            width="163"
+            height="154"
+          />
+        </picture>
+      </div>
+      <div class="fon-camera">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/sign_up/video-entry-product240x296-min.png    1x,
+              ./img/sign_up/video-entry-product240x296@2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/sign_up/video-entry-product254x313-min.png    1x,
+              ./img/sign_up/video-entry-product254x313@2x-min.png 2x
+            "
+          />
+          <img
+            class="icon-camera"
+            src="./img/sign_up/video-entry-product240x296-min.png"
+            alt="camera"
+            width="254"
+            height="313"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
 </section>
