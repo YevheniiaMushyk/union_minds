@@ -116,10 +116,6 @@ sign-up-lelftpart {
 }
 
 @media screen and (max-width: 767px) {
-  .container {
-    max-width: 375px;
-  }
-
   .sign-up-lelftpart {
     max-width: 335px;
   }
@@ -169,11 +165,6 @@ sign-up-lelftpart {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .container {
-    max-width: 768px;
-    /* padding-left: 32px;
-    padding-right: 256px; */
-  }
   .sign-up_content {
     margin-bottom: 100px;
   }
@@ -224,18 +215,12 @@ sign-up-lelftpart {
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
-  .container {
-    max-width: 1280px;
-  }
   .sign-up_content {
     column-gap: 60px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
   .sign-up_content {
     column-gap: 200px;
   }

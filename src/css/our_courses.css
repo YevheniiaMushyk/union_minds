@@ -111,6 +111,13 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .our-courses_list {
     margin-top: 50px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-courses_list {
+    margin-top: 50px;
+    margin-bottom: 150px;
   }
 }
 

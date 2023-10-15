@@ -41,12 +41,32 @@
         '.modal__button_close'
       );
       const modal = document.querySelector('.modal');
+      const modal__click1 = document.querySelector('modal__nav-link1');
+      const modal__click2 = document.querySelector('modal__nav-link2');
+      const modal__click3 = document.querySelector('click3');
+      const modal__click4 = document.querySelector('click4');
+      const modal__click5 = document.querySelector('click5');
 
       header__button.addEventListener('click', () => {
         modal.showModal();
       });
 
       modal__button_close.addEventListener('click', () => {
+        modal.close();
+      });
+      modal__click1.addEventListener('click', () => {
+        modal.close();
+      });
+      modal__click2.addEventListener('click', () => {
+        modal.close();
+      });
+      modal__click3.addEventListener('click', () => {
+        modal.close();
+      });
+      modal__click4.addEventListener('click', () => {
+        modal.close();
+      });
+      modal__click5.addEventListener('click', () => {
         modal.close();
       });
     </script>

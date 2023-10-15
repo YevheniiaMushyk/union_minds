@@ -22,8 +22,8 @@
   padding: 20px 10px;
   white-space: nowrap;
   animation-name: marqueeLine;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
+  animation-duration: 8s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
@@ -58,6 +58,7 @@
     padding: 0 32px;
     margin-bottom: 100px;
   }
+
   .marquee-line__title {
     font-size: 40px;
     line-height: 1.25;
@@ -67,14 +68,11 @@
 @media screen and (min-width: 1280px) {
   .marquee {
     padding: 0 100px;
+    margin-bottom: 150px;
   }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
-  .marquee {
-    margin-bottom: 150px;
-  }
-
   .marquee-line__title {
     padding-left: 15px;
     padding-right: 15px;
