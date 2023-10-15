@@ -217,6 +217,125 @@
     display: flex;
   }
 }
+@media screen and (min-width: 1279px) and (max-width: 1439px) {
+  .hero-wrapper {
+    padding-top: 80px;
+    padding-left: 50px;
+  }
+
+  .hero__title {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -2.56px;
+    color: var(--main_text);
+    max-width: 540px;
+    margin-bottom: 20px;
+  }
+  
+  .hero__subtitle {
+    font-style: italic;
+    color: var(--submain);
+  }
+  .hero-descr {
+    max-width: 418px;
+    color: var(--main_text);
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.28px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 136px;
+  }
+  .general-star-trio {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 51px;
+  }
+  .hero-students-arrow {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-img-trio {
+    margin-bottom: 4px;
+   
+  }
+  .div-hero-star {
+    display: flex;
+    gap: 12px;
+    margin-right: 303px;
+  
+  }
+  .div-hero-trio {
+    display: flex;
+    gap: 12px;
+
+  }
+
+  .hero-image-descr {
+    color: var(--main_text);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.56px;
+    display: flex;
+    max-width: 67px;
+  }
+  .hero-arrow {
+    fill: var(--main_text);
+  }
+
+  .hero-star {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: var(--submain);
+    border: none;
+    position: relative;
+  }
+  .hero-star-color {
+    display: flex;
+    fill: var(--submain);
+    stroke: var(--main_background);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hero-reviews {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.56px;
+  }
+  .hero-p-number {
+    color: var(--main_text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.64px;
+  }
+  .hero-main-img {
+    align-items: center; 
+    margin-bottom: 0;
+  }
+  .hero-img-content {
+justify-content: center;
+  }
+  .div-happy-descr {
+
+
+  }
+
+}
+
+
 /* Laptop */
 @media screen and (min-width: 1280px) and (min-width: 1440px) {
   .hero-wrapper {
@@ -323,7 +442,6 @@
     letter-spacing: -0.64px;
   }
   .hero-main-img {
-<<<<<<< Updated upstream
     align-items: center; 
     margin-bottom: 0;
   }
@@ -331,12 +449,6 @@
 justify-content: center;
   }
   .div-happy-descr {
-=======
-  align-items: center;
-  margin-bottom: 174px;
-  min-width: 397px;
-  height: 520px;
->>>>>>> Stashed changes
 
 
   }
