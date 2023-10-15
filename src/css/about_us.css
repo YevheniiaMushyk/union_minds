@@ -1,7 +1,5 @@
 .about-us {
-  min-width: 320px;
   max-width: 375px;
-  padding: 0 20px;
 }
 
 .about-us__title {
@@ -25,7 +23,7 @@
   flex-direction: column;
   gap: 20px;
   max-width: 335px;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .about-us-text-first,
@@ -41,7 +39,7 @@
 /* TAB */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .about-us__title.main_title {
-      font-size: 48px;
+    font-size: 48px;
     font-weight: 500;
     line-height: 1.12;
     letter-spacing: 0.04em;
@@ -49,12 +47,12 @@
   }
 
   .about-us__title {
-      font-size: 48px;
-      font-weight: 500;
-      line-height: 1.12;
-      letter-spacing: 0.04em;
-      margin-bottom: 50px;
-    }
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+  }
 
   .about-us-img-div {
     height: 340px;
@@ -67,7 +65,7 @@
     flex-direction: initial;
     gap: 40px;
     max-width: 100%;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 
   .about-us-text-first,
@@ -84,7 +82,7 @@
 /* DESK 1280*/
 @media screen and (min-width: 1280px) {
   .about-us__title.main_title {
-      font-size: 48px;
+    font-size: 48px;
     font-weight: 500;
     line-height: 1.12;
     letter-spacing: 0.04em;
@@ -125,7 +123,7 @@
     flex-direction: inherit;
     gap: 20px;
     max-width: 100%;
-    padding-bottom: 150px;
+    margin-bottom: 150px;
   }
 }
 
@@ -133,12 +131,12 @@
 @media screen and (min-width: 1440px) {
   .about-us__title.main_title {
     font-size: 48px;
-  font-weight: 500;
-  line-height: 1.12;
-  letter-spacing: 0.04em;
-  margin-bottom: 50px;
-}
-  
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+  }
+
   .about-us-img-div {
     height: 240px;
     width: 560px;
@@ -156,6 +154,5 @@
 
   .about-us-text-div {
     gap: 40px;
-    padding-bottom: 160px;
   }
 }
