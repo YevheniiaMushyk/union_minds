@@ -209,12 +209,10 @@
 .header__sign:hover,
 .header__sign:focus {
   background: var(--button_fon);
-  transform: scale(1.1);
 }
 .header__sign:hover .header__link,
 .header__sign:focus .header__link {
   color: var(--submain);
-  transform: scale(1.1);
 }
 .header__nav-item:hover .header__nav-link,
 .header__nav-item:focus .header__nav-link {
