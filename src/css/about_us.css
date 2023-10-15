@@ -1,0 +1,158 @@
+.about-us {
+  max-width: 375px;
+}
+
+.about-us__title {
+  margin-bottom: 40px;
+}
+
+.about-us-img-div {
+  height: 209px;
+  width: 335px;
+  margin-bottom: 40px;
+}
+
+.about-us-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-us-text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 335px;
+  margin-bottom: 80px;
+}
+
+.about-us-text-first,
+.about-us-text-two {
+  color: var(--main_text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: 0.02em;
+  max-width: 335px;
+}
+
+/* TAB */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-us__title.main_title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+  }
+
+  .about-us__title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+  }
+
+  .about-us-img-div {
+    height: 340px;
+    width: 704px;
+    margin-bottom: 50px;
+  }
+
+  .about-us-text-div {
+    display: flex;
+    flex-direction: initial;
+    gap: 40px;
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .about-us-text-first,
+  .about-us-text-two {
+    color: var(--main_text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    max-width: 280px;
+  }
+}
+
+/* DESK 1280*/
+@media screen and (min-width: 1280px) {
+  .about-us__title.main_title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+  }
+
+  .about-us-div {
+    display: flex;
+  }
+
+  .about-us-img-div {
+    height: 260px;
+    width: 488px;
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+
+  .about-us-text-first {
+    color: var(--main_text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    max-width: 268px;
+  }
+
+  .about-us-text-two {
+    color: var(--main_text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+  }
+
+  .about-us-text-div {
+    display: flex;
+    flex-direction: inherit;
+    gap: 20px;
+    max-width: 100%;
+    margin-bottom: 150px;
+  }
+}
+
+/* DESK 1480*/
+@media screen and (min-width: 1440px) {
+  .about-us__title.main_title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+  }
+
+  .about-us-img-div {
+    height: 240px;
+    width: 560px;
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+
+  .about-us-text-first {
+    max-width: 314px;
+  }
+
+  .about-us-text-two {
+    max-width: 276px;
+  }
+
+  .about-us-text-div {
+    gap: 40px;
+  }
+}
