@@ -3,8 +3,9 @@
 		<symbol id="icon-arrow-2stroke" viewBox="0 0 64 32">
 			<path fill="#fff" d="M44.444 0 64 15.396 44.444 30.792V18.063H0V12.73h44.444V.001z" style="fill:var(--color1, #fff)" />
 		</symbol>
-		<symbol id="icon-arrow-narrow-up-right" viewBox="0 0 32 32">
-			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M8 24 24 8M13.333 8H24v10.667" />
+		<symbol id="icon-arrow-narrow-up-right" viewBox="0 0 20 20">
+			<path d="M5 15L15 5" fill="none" stroke="#777777" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+			<path d="M8.33331 5H15V11.6667" fill="none" stroke="#777777" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
 		</symbol>
 		<symbol id="icon-bi_camera-fill" viewBox="0 0 32 32">
 			<path d="M21 17c0 1.326-0.527 2.598-1.464 3.536s-2.209 1.464-3.536 1.464-2.598-0.527-3.536-1.464c-0.938-0.938-1.464-2.21-1.464-3.536s0.527-2.598 1.464-3.536c0.938-0.938 2.209-1.464 3.536-1.464s2.598 0.527 3.536 1.464c0.938 0.938 1.464 2.209 1.464 3.536z">
