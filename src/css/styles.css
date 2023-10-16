@@ -36,17 +36,25 @@ body {
   color: var(--main_text);
   background-color: var(--main_background);
 }
+body::-webkit-scrollbar {
+  width: 7px;
+}
 
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--button_fon);
+  border-radius: 20px;
+}
 .container {
   margin: 0 auto;
   height: 100%;
 }
 
 .main_title {
-  font-size: 28px;
   font-weight: 500;
-  line-height: 1.14; /* 32px */
-  letter-spacing: -0.07em;
   text-transform: capitalize;
 }
 .subtitle {
@@ -69,6 +77,11 @@ body {
   .contacts {
     background-image: url('../img/body/backgrmob-min.png');
   }
+  .main_title {
+    font-size: 28px;
+    line-height: 1.14; /* 32px */
+    letter-spacing: -0.07em;
+  }
 }
 @media (min-resolution: 192dpi) and (max-width: 767px) {
   .wrap_img,
@@ -76,14 +89,13 @@ body {
     background-image: url('../img/body/backgrmob@2x-min.png');
   }
 }
-
-/* @media screen and (min-width: 768px) {
-  
-} */
-
-/* @media screen and (max-width: 1279px) {
-  
-} */
+@media screen and (min-width: 768px) {
+  .main_title {
+    font-size: 48px;
+    line-height: 1.125; /* 54px */
+    letter-spacing: -0.12em;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .container {

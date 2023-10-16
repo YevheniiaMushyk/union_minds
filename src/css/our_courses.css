@@ -127,6 +127,9 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
   padding: 28px;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-courses_item:hover,
@@ -248,6 +251,9 @@
   border: 1px solid var(--button_fon);
   border-radius: 50%;
   background-color: var(--button_fon);
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-courses_link_icon:hover,
 .our-courses_link_icon:focus {

@@ -19,6 +19,9 @@
 
 .footer-logo {
   margin-bottom: 16px;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
 }
 .footer-logo:hover,
 .footer-logo:focus {
@@ -105,6 +108,11 @@
   flex-direction: column;
   gap: 14px;
 }
+.footer-soc-item {
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
 .footer-soc-item:hover,
 .footer-soc-item:focus {
   transform: scale(1.2);
@@ -157,7 +165,9 @@
   text-align: center;
   font-size: 20px;
   line-height: 1.2; /* 24px */
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
 }
 
 .form-button:hover,

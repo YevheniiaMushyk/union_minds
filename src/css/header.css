@@ -47,6 +47,9 @@
 .header__icon_link .header__icon_svg {
   fill: var(--submain);
   fill-opacity: 0.4;
+  transition-property: fill-opacity;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
 }
 
 @media screen and (max-width: 767px) {
@@ -80,11 +83,12 @@
   .header__sign {
     display: inline-flex;
     align-items: center;
-
     margin-top: 20px;
-
     border-radius: 12px;
-    background: var(--main_text);
+    background-color: var(--main_text);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 
   .header__link {
@@ -93,6 +97,9 @@
     font-weight: 700;
     line-height: 1.56; /*28px*/
     text-transform: uppercase;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
 }
 
@@ -158,12 +165,33 @@
     flex-grow: 1;
   }
   .header__nav-item {
+    position: relative;
     padding: 19px 0;
   }
   .header__nav-link {
     font-size: 14px;
     line-height: normal;
     text-transform: uppercase;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+  }
+  .header__nav-link::after,
+  .header__nav-link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 17%;
+    transform: translateX(-50%);
+    width: 10%;
+    height: 2px;
+    background-color: var(--submain);
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition-property: width, opacity, visibility;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
   }
   .header__sign {
     margin-bottom: 80px;
@@ -196,7 +224,7 @@
 
 .header__sign:hover,
 .header__sign:focus {
-  background: var(--button_fon);
+  background-color: var(--button_fon);
 }
 .header__sign:hover .header__link,
 .header__sign:focus .header__link {
@@ -211,6 +239,13 @@
 .header__nav-item:focus {
   transform: scale(1.1);
 }
+.header__nav-item:hover .header__nav-link::after,
+.header__nav-item:focus .header__nav-link::after {
+  opacity: 1;
+  visibility: visible;
+  width: 90%;
+}
+
 .header__logo:hover,
 .header__logo:focus {
   transform: scale(1.1);
