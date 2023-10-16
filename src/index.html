@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -35,6 +35,21 @@
     <load ="partials/footer.html" />
     <load ="partials/modal.html" />
 
+    <script>
+      const header__button = document.querySelector('.header__button');
+      const modal__button_close = document.querySelector(
+        '.modal__button_close'
+      );
+      const modal = document.querySelector('.modal');
+
+      header__button.addEventListener('click', () => {
+        modal.showModal();
+      });
+
+      modal__button_close.addEventListener('click', () => {
+        modal.close();
+      });
+    </script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

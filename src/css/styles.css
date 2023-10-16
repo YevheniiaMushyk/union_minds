@@ -36,34 +36,108 @@ body {
   color: var(--main_text);
   background-color: var(--main_background);
 }
+body::-webkit-scrollbar {
+  width: 7px;
+}
 
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--button_fon);
+  border-radius: 20px;
+}
 .container {
-  /* 
-  min-width: 320px; */
-  /* max-width: 375px; */
-  padding: 0 20px;
   margin: 0 auto;
   height: 100%;
 }
 
 .main_title {
-  font-size: 48px;
   font-weight: 500;
-  line-height: 1.125; /* 54px */
-  letter-spacing: -1.92px;
   text-transform: capitalize;
 }
 .subtitle {
   color: var(--submain);
 }
-.wrap_img {
-  background-image: url('../img/backgr.png');
+.wrap_img,
+.contacts {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-@media (min-resolution: 192dpi) {
-  .wrap_img {
-    background-image: url('../img/backgr@2x.png');
+
+@media screen and (max-width: 767px) {
+  .container {
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 20px;
+  }
+  .wrap_img,
+  .contacts {
+    background-image: url('../img/body/backgrmob-min.png');
+  }
+  .main_title {
+    font-size: 28px;
+    line-height: 1.14; /* 32px */
+    letter-spacing: -0.07em;
+  }
+}
+@media (min-resolution: 192dpi) and (max-width: 767px) {
+  .wrap_img,
+  .contacts {
+    background-image: url('../img/body/backgrmob@2x-min.png');
+  }
+}
+@media screen and (min-width: 768px) {
+  .main_title {
+    font-size: 48px;
+    line-height: 1.125; /* 54px */
+    letter-spacing: -0.12em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .wrap_img,
+  .contacts {
+    background-image: url('../img/body/backgrtablet-min.png');
+  }
+}
+@media (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px) {
+  .wrap_img,
+  .contacts {
+    background-image: url('../img/body/backgrtablet@2x-min.png');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 100px;
+  }
+  .wrap_img,
+  .contacts {
+    background-image: url('../img/body/detop-min.png');
+  }
+}
+@media (min-resolution: 192dpi) and (min-width: 1280px) {
+  .wrap_img,
+  .contacts {
+    background-image: url('../img/body/detop@2x-min.png');
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
   }
 }
