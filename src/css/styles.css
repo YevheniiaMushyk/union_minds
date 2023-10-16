@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
   .main_title {
     font-size: 28px;
     line-height: 1.14; /* 32px */
-    letter-spacing: -0.07em;
+    letter-spacing: -1.12px;
   }
 }
 @media (min-resolution: 192dpi) and (max-width: 767px) {
@@ -93,7 +93,7 @@ body::-webkit-scrollbar-thumb {
   .main_title {
     font-size: 48px;
     line-height: 1.125; /* 54px */
-    letter-spacing: -0.12em;
+    letter-spacing: 0.04em;
   }
 }
 
