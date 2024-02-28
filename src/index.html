@@ -41,6 +41,7 @@
         '.modal__button_close'
       );
       const modal = document.querySelector('.modal');
+      const modalcon = document.querySelector('.modal__container');
 
       header__button.addEventListener('click', () => {
         modal.showModal();
@@ -48,6 +49,14 @@
 
       modal__button_close.addEventListener('click', () => {
         modal.close();
+      });
+
+      modal.addEventListener('click', e => {
+        if (e.target === e.currentTarget) {
+          console.log(e.target);
+          console.log(e.currentTarget);
+          // modal.close();
+        }
       });
     </script>
     <script type="module" src="/main.js"></script>

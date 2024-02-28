@@ -4,6 +4,7 @@
   right: 0;
   height: 100vh;
   background-color: var(--submain);
+  /* margin-left: auto; */
 
   background-repeat: no-repeat;
   background-position: bottom;
@@ -13,8 +14,6 @@
   background-color: rgba(18, 18, 18, 0.4);
 }
 .modal__container {
-  margin-left: auto;
-
   padding: 0 20px;
   padding-top: 218px;
 }

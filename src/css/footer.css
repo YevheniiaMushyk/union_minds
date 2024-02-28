@@ -67,6 +67,14 @@
   line-height: 1.29; /*18px */
   text-transform: uppercase;
   margin-bottom: 10px;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  transform: scale(1.2);
 }
 
 .text-adress {
