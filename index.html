@@ -19,8 +19,8 @@
     />
     
     <title>FocusFrame</title>
-    <script type="module" crossorigin src="/union_minds/assets/index-270b61be.js"></script>
-    <link rel="stylesheet" href="/union_minds/assets/index-4121695a.css">
+    <script type="module" crossorigin src="/union_minds/assets/index-095c73ab.js"></script>
+    <link rel="stylesheet" href="/union_minds/assets/index-6d2e9cd0.css">
   </head>
   <body>
     <div class="wrap_img">
@@ -363,7 +363,7 @@
               id="name"
               name="name"
               type="text"
-              pattern="[a-z]{2}"
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
               placeholder="Enter your name"
           /></label>
         </div>
@@ -572,7 +572,7 @@
               type="email"
               name="mail"
               class="form-input"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
               placeholder="Enter your email"
             />
           </label>
@@ -593,31 +593,33 @@
   </div>
 </footer>
 
-    <dialog class="modal modal__container">
-  <button class="modal__button_close">
-    <svg class="modal__button_icon" width="32" height="32">
-      <use href="/union_minds/assets/icons-fd32cfe0.svg#icon-close32x32"></use>
-    </svg>
-  </button>
-  <nav class="modal__nav">
-    <ul class="modal__nav-list">
-      <li class="modal__nav-item">
-        <a href="#about-us" class="modal__nav-link">about us</a>
-      </li>
-      <li class="modal__nav-item">
-        <a href="#our-courses" class="modal__nav-link">our courses</a>
-      </li>
-      <li class="modal__nav-item">
-        <a href="#our-mentors" class="modal__nav-link">our mentors</a>
-      </li>
-      <li class="modal__nav-item">
-        <a href="#reviews" class="modal__nav-link">reviews</a>
-      </li>
-      <li class="modal__nav-item">
-        <a href="#contacts" class="modal__nav-link">contacts</a>
-      </li>
-    </ul>
-  </nav>
+    <dialog class="modal">
+  <div class="modal__container">
+    <button class="modal__button_close">
+      <svg class="modal__button_icon" width="32" height="32">
+        <use href="/union_minds/assets/icons-fd32cfe0.svg#icon-close32x32"></use>
+      </svg>
+    </button>
+    <nav class="modal__nav">
+      <ul class="modal__nav-list">
+        <li class="modal__nav-item">
+          <a href="#about-us" class="modal__nav-link">about us</a>
+        </li>
+        <li class="modal__nav-item">
+          <a href="#our-courses" class="modal__nav-link">our courses</a>
+        </li>
+        <li class="modal__nav-item">
+          <a href="#our-mentors" class="modal__nav-link">our mentors</a>
+        </li>
+        <li class="modal__nav-item">
+          <a href="#reviews" class="modal__nav-link">reviews</a>
+        </li>
+        <li class="modal__nav-item">
+          <a href="#contacts" class="modal__nav-link">contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </dialog>
 
 
@@ -627,6 +629,7 @@
         '.modal__button_close'
       );
       const modal = document.querySelector('.modal');
+      const modalcon = document.querySelector('.modal__container');
 
       header__button.addEventListener('click', () => {
         modal.showModal();
@@ -634,6 +637,14 @@
 
       modal__button_close.addEventListener('click', () => {
         modal.close();
+      });
+
+      modal.addEventListener('click', e => {
+        if (e.target === e.currentTarget) {
+          console.log(e.target);
+          console.log(e.currentTarget);
+          // modal.close();
+        }
       });
     </script>
     
