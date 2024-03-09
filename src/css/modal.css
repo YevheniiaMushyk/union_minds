@@ -4,7 +4,7 @@
   right: 0;
   height: 100vh;
   background-color: var(--submain);
-  /* margin-left: auto; */
+  margin-left: auto;
 
   background-repeat: no-repeat;
   background-position: bottom;
